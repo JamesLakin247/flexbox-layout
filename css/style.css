@@ -1,36 +1,124 @@
 * {
     box-sizing: border-box;
 }
-
-.box {
+/* Example 1 */
+.box-one {
     border: 2px solid lightgrey;
     width: 200px;
-    height: 300px;
+    height: 200px;
 }
 
-.box-small {
+.box-small-one {
     width: 100px;
     height: 100px;
+    margin-left: 24px;
 }
 
-.box-wrapper {
+.box-wrapper-one {
     display: flex;
     align-items: center;
 }
 
-.container {
+.container-one {
     border: 2px solid lightgray;
     display: flex;
     justify-content: space-between;
     padding: 24px;
 }
-
-p {
-    color: red;
-    height: 100px;
+/* Example 2 */
+.container-two {
+    border: 2px solid lightgray;
+    padding: 24px 24px 0 24px;
 }
 
-p {
-    color: blue;
+.row-two {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title-two {
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.box-wrapper-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-two {
+    border: 2px solid lightgrey;
+    width: 30%;
     height: 100px;
+    margin-bottom: 24px;
+}
+/* Example 3 */
+.container-three {
+    border: 2px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-three {
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-small-three {
+    height: 50px;
+}
+
+.box-wrapper-three {
+    width: 45%;
+}
+
+.box-large-three {
+    width: 45%;
+}
+/* Example 4 */
+.container-four {
+    border: 2px solid lightgray;
+    padding: 24px 24px 0 24px;
+}
+
+.row-four {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-four {
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-small-four {
+    height: 50px;
+}
+
+.box-tiny-four {
+    width: 30%;
+    height: 50px;
+
+}
+
+.box-wrapper-four {
+    width: 45%;
+}
+
+.tiny-wrapper-four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-large-four {
+    width: 45%;
 }
