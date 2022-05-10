@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 2px solid lightgrey;
+    width: 200px;
+    height: 300px;
+}
+
+.box-small {
+    width: 100px;
+    height: 100px;
+}
+
+.box-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+    height: 100px;
+}
